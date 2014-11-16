@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: Myapp_development
+  pool: 5
+  timeout: 5000
+  username: myapp
+  password: myapp
+test:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: Myapp_test
+  pool: 5
+  timeout: 5000
+  username: myapp
+  password: myapp
