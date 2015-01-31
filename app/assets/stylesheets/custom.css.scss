@@ -59,13 +59,17 @@ p {
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
+  display: block;
+  z-index: 56;
 }
 
 #logo:hover {
   color: #fff;
   text-decoration: none;
 }
-
+nav.navbar {
+  margin-left: 200px;
+}
 /* footer */
 
 footer {
